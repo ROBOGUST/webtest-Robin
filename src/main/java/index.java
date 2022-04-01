@@ -12,12 +12,14 @@ public class index {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver;
 
+        // Prepared code if you want to use firefox.
         /*WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();*/
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
 
+        // Prepared code if you want to use safari.
         /*WebDriverManager.safaridriver().setup();
         driver = new SafariDriver();*/
 
